@@ -1,0 +1,159 @@
+html, body{
+			height: 100%;
+		}
+		
+		body{
+			margin: 0;
+		}
+
+		header {
+			position: relative;
+			height: 100%;
+			background:black;
+			font-family:arial;
+			overflow: hidden;
+			
+		}
+
+		nav{
+			padding: 20px 15%
+					}
+		ul{
+			float: right;
+		}
+		ul>li{
+			float: left;
+			list-style: none;
+			padding: 10px 10px;
+			font-weight: bold;
+			font-size: 20px;
+			border-spacing: 100px;
+
+		}
+		
+		ul>li{
+			border: 2px solid #ffff;
+			border-spacing: 100px;
+			border-radius: 50px;
+			background: white;
+			padding: 10px 30px;
+			font-size: 20px;
+			font-family: "montserrat";
+			cursor: pointer;
+			transition: 0.5;
+			position: 20px;
+						
+		}
+		
+		ul>li{
+			color:black;}
+
+		ul>li:hover{
+			color:white;
+			background-color: black;
+				}
+		
+		}
+
+		ul>li::before{
+			top: 0;
+			border-radius: 0 0 50% 50%;
+
+		}
+
+		ul>li:hover::before{
+			height: 180%;
+		}
+		.brand{
+			font-weight: bolder;
+			font-size: 50px;
+			margin-top:20px;
+			float: left;
+		}
+
+
+		.content {
+			position:absolute;
+			top:40%;
+			transform: translateY(-20%);
+			width:50%;
+			margin-left: 200px;
+		}
+
+		h2{
+			font-size: 50px;
+		}
+
+		h4{
+			font-size: 30px;
+		}
+
+		p{
+			font-size: 15px;
+			line-height: 18px;
+		}
+
+		.btn{
+			border: 1px solid #ffff;
+			background: none;
+			padding: 10px 20px;
+			font-size: 20px;
+			font-family: "montserrat";
+			cursor: pointer;
+			transition: 0.5;
+			position: relative;
+			overflow: hidden;
+
+		}
+
+		.btn{
+
+			color: white;
+		}
+
+		.btn1:hover{
+			color: black;
+
+		}
+		
+		.btn::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 0%;
+			background: #ffff;
+			z-index: -1;
+			transition-property: 2s;
+
+		}
+		.btn ::before{
+			top: 0;
+			border-radius: 0 0 50% 50%;
+		}
+		.btn1::before {
+			bottom: 0;
+			border-radius: 50% 50% 0 0;
+		}
+
+		
+		.btn1:hover::before{
+			height: 180%;
+		}
+
+		.imgsec{
+			position: absolute;
+			bottom: 0;
+			height: 68vh;
+			right: 102px;
+			size: 50%;
+
+		}
+
+		.imgsec1{
+			position: absolute;
+			bottom: 0;
+			height: 35vh;
+			right: 102px;
+			size: 50%;
+		}
